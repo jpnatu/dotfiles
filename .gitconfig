@@ -1,0 +1,12 @@
+[user]
+	name = JPnatu
+	email = jpnatu2569@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
